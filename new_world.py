@@ -1,3 +1,9 @@
-print("Hello")
+print("Give width")
+W = float(input("="))
+print("Give length")
+L = float(input("="))
 
-print("It's working!")
+Sum = W * L
+print(Sum)
+
+print("Hello \'World\'")
