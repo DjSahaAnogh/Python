@@ -18,4 +18,4 @@ elif "^" == operator:
   Sq = num1 * num1
   print(Sq)
 else:
-  print("E")
+  print("Error")
