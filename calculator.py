@@ -14,3 +14,8 @@ elif "*" == operator:
 elif "/" == operator:
   Div = num1 / num2
   print(Div)
+elif "^" == operator:
+  Sq = num1 * num1
+  print(Sq)
+else:
+  print("E")
