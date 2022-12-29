@@ -1,21 +1,18 @@
 def calculator(num1, num2, operator):
   if "+" == operator:
-    add = num1 + num2
-    print(add)
+    print(num1 + num2)
   elif "-" == operator:
-    sub = num1 - num2
-    print(sub)
+    print(num1 - num2)
   elif "*" == operator:
-    multi = num1 * num2
-    print(multi)
+    print(num1 * num2)
   elif "/" == operator:
-    div = num1 / num2
-    print(div)
+    print(num1 / num2)
   elif "^2" == operator:
-    sq = num1 * num1
-    print(sq)
+    print(num1 * num1)
   elif "^3" == operator:
-    cube = num1*num1*num1
-    print(cube)
+    print(num1*num1*num1)
   else:
     print("Error")
+    
+
+calculator(10, 5, "-")
