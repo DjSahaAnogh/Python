@@ -1,23 +1,23 @@
-num1 = float(input("First number= "))
-operator = input("Enter operator= ")
-num2 = float(input("Second number= "))
+def calculator(num1, num2, operator):
+  if "+" == operator:
+    add = num1 + num2
+    print(add)
+  elif "-" == operator:
+    sub = num1 - num2
+    print(sub)
+  elif "*" == operator:
+    multi = num1 * num2
+    print(multi)
+  elif "/" == operator:
+    div = num1 / num2
+    print(div)
+  elif "^2" == operator:
+    sq = num1 * num1
+    print(sq)
+  elif "^3" == operator:
+    cube = num1*num1*num1
+    print(cube)
+  else:
+    print("Error")
 
-if "+" == operator:
-  Add = num1 + num2
-  print(Add)
-elif "-" == operator:
-  Sub = num1 - num2
-  print(Sub)
-elif "*" == operator:
-  Multi = num1 * num2
-  print(Multi)
-elif "/" == operator:
-  Div = num1 / num2
-  print(Div)
-elif "^" == operator:
-  Sq = num1 * num1
-  print(Sq)
-else:
-  print("Error")
-
-  
+calculator(4, 0, "^")
