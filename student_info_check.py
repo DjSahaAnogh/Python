@@ -109,7 +109,7 @@ elif 16209 == id_num:
   print(student1_result[2])
   print(student1_status)
 elif 16210 == id_num:
-  student1_info = ["Name: Dhanonjoy", "Roll: 10", "Section: A", "Age: 13"]
+  student1_info = ["Name: Harry", "Roll: 10", "Section: A", "Age: 13"]
   student1_result = ["Bangla: 77", "English: 82", "Math: 91"]
   student1_status = "Pass"
   print(student1_info[0])
