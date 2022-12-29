@@ -15,10 +15,7 @@ def calculator(num1, num2, operator):
     sq = num1 * num1
     print(sq)
   elif "^3" == operator:
-    cube = num1 * num1 * num1
+    cube = num1*num1*num1
     print(cube)
   else:
     print("Error")
-
-
-calculator(4, 0, "^")

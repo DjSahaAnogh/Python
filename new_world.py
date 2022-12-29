@@ -1,2 +1,3 @@
-print("Hello everyone")
-print("Thinking of a new work!")
+from calculator import calculator
+
+calculator(10, 5, "-")
