@@ -16,4 +16,4 @@ def month_conversation(keyword):
   print(month_conversions.get(keyword, "Invalid keyword"))
 
 
-month_conversation("Oct")
+month_conversation("12")
