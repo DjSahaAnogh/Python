@@ -11,7 +11,7 @@ else:
   print("Please write again the password!")
   pass_check = input("Rewrite password:  ")
   if pass_check == user_pass:
-    print("Congratulation you have created a new account!\n")
+    print("Congratulation you have created a new account!")
 
 
 print("Sign in:")
