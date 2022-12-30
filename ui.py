@@ -18,6 +18,14 @@ print("Sign in:")
 user_id_ask = input("ID name:  ")
 user_pass_ask = input("Password:  ")
 
-if user_id_ask == user_id:
-  if user_pass_ask == user_pass:
-    print("Hello " + user_first_name + " " + user_surname + "!")
+while user_id_ask != user_id and user_pass_ask != user_pass:
+  if user_id == user_pass_ask or user_pass == user_pass_ask:
+    print("wrong ID or password")
+    user_id_ask = input("ID name:  ")
+    user_pass_ask = input("Password:  ")
+  else:
+    print("wrong ID or password")
+    user_id_ask = input("ID name:  ")
+    user_pass_ask = input("Password:  ")
+
+print("Hello " + user_first_name + " " + user_surname + "!")
