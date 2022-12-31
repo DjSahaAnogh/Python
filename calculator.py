@@ -16,3 +16,12 @@ def calculator(num1, num2, operator):
     
 
 calculator(10, 5, "-")
+
+
+def raise_power(based_num, pow_num):
+  result = 1
+  for index in range(pow_num):
+    result = result * based_num
+    return result
+    
+raise_power(2, 2)
