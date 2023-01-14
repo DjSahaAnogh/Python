@@ -19,6 +19,8 @@ def bill_calculator_2(inPut):
     print(e)
 
 
+# Bill calculator-3 will add 5% tip.
+# It can break anytime.
 def bill_calculator_3(in_put):
   def sum(bill):
     total = 0
@@ -33,6 +35,8 @@ def bill_calculator_3(in_put):
   print("Payable amount: ", total_amount)
 
 
+# Bill calculator-4 will add 5% tip.
+# It won't break anytime.
 def bill_calculator_4(in_put):
   try:
     def sum(bill):
