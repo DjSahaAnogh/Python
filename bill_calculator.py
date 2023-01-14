@@ -4,14 +4,13 @@ def bill_calculator(in_put):
     total = 0
     for amount in range(0, len(bill)):
       total = total + bill[amount]
-    print(total)
-  sum(in_put)
-  
-  # tip = amount * 5 / 100
-  # total_amount = amount + tip
-  # print("Tip: ", tip)
-  # print("Payable amount: ", total_amount)
+    return total
+  total = sum(in_put)
+  tip = total * 5 / 100
+  total_amount = total + tip
+  print("Tip: ", tip)
+  print("Payable amount: ", total_amount)
 
 
 # Testing!
-bill_calculator([5, 6, 7])
+bill_calculator([100, 50])
