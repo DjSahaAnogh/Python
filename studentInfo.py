@@ -7,11 +7,8 @@ class StudentInfo:
     self.sec = sec
   
   def check(self):
-    if self.id_num == self.id_num:
-      print(self.name + " " + self.roll + " " + self.sec + " " + self.grade)
-    else:
-      print("Error")
-
+    print(self.name + " " + self.roll + " " + self.sec + " " + self.grade)
+    
 
 student_id_num = input("Student's ID num: ")
 student_name = input("Student's name: ")
