@@ -26,4 +26,9 @@ def raise_to_power(base_num, pow_num):
   print(result)
 
 
-calculator()
+def cube(num):
+  ans = num * num * num
+  print(ans)
+
+
+cube(5)
