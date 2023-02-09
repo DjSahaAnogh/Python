@@ -31,4 +31,4 @@ def cube(num):
   print(ans)
 
 
-cube(5)
+cube(3)
