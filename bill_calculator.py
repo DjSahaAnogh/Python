@@ -53,3 +53,4 @@ def bill_calculator_4(in_put):
   except Exception as e:
     print(e)
 
+bill_calculator_4(5000)
