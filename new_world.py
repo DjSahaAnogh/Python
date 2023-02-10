@@ -1,13 +1,5 @@
-import sys
-# Question 1
-# print("Twinkle, twinkle, little star,")
-# print("	How I wonder what you are!")
-# print("		Up above the world so high,")
-# print("		Like a diamond in the sky. ")
-# print("Twinkle, twinkle, little star, ")
-# print("	How I wonder what you are")
+from math import pi
 
-print("Python version")
-print(sys.version)
-print("Version info.")
-print(sys.version_info)
+r = float(input("Enter the radius of the circle: "))
+ans = pi * r**2
+print("Answer: "+str("%d" % ans))
