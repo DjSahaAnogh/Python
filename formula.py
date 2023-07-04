@@ -6,3 +6,11 @@ def a_plus_b(num1, num2):
 
 
 a_plus_b(2, -5)
+
+def asqr_bsqr(num1, num2):
+	sum1: int = (num1 + num2)*(num1 + num2)
+	sum2: int = -2*num1*num2
+	print(sum1, sum2, sep=" - ")
+
+
+asqr_bsqr(4, 5)
