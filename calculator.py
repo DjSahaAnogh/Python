@@ -1,22 +1,34 @@
 def calculator():
-  operation = input("Enter an operation (+, -, *, /): ")
-  if operation not in ['+', '-', '*', '/']:
-    print("Invalid operation. Please enter a valid operation.")
-  
-  num1 = float(input("Enter the first number: "))
-  num2 = float(input("Enter the second number: "))
-  
-  if operation == '+':
-    print(num1 + num2)
-  elif operation == '-':
-    print(num1 - num2)
-  elif operation == '*':
-    print(num1 * num2)
-  elif operation == '/':
-    if num2 == 0:
-      print("Cannot divide by 0.")
-    else:
-      print(num1 / num2)
+  num1 = int(input("Enter the first number: "))
+  symbol = input("Enter a math operator: ")
+  num2 = int(input("Enter the second number: "))
+
+  if symbol in ["+", "-", "*", "/"]:
+    pass
+  else:
+    print("Invalid operator!")
+    return
+
+  if not symbol in ["-", "*", "/"]:
+    sum_result = num1 + num2
+    print("The sum is: ", sum_result)
+    return
+
+  if not symbol in ["+", "*", "/"]:
+    sum_result_1 = num1 - num2
+    print("The result is: ", sum_result_1)
+    return
+  if not symbol in ["+", "-", "/"]:
+    sum_result_2 = num1 * num2
+    print("The result is: ", sum_result_2)
+    return
+  if not symbol in ["+", "-", "*"]:
+    sum_result_3 = num1 / num2
+    print("The result is: ", sum_result_3)
+    return
+
+
+calculator()
 
 
 def raise_to_power(base_num, pow_num):
@@ -29,6 +41,3 @@ def raise_to_power(base_num, pow_num):
 def cube(num):
   ans = num * num * num
   print(ans)
-
-
-cube(3)
